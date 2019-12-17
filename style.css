@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body
+{
+	background-color:#7f7f7f;
+	margin: 0 auto;
+	width: 85%;
+}
+
+header{
+	width:100%;
+	height:500px;
+	background-color:#7f7f7f;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	text-align: left;
+	font-size: 35px;
+	}
+aside{
+	float: left;
+	width: 45%;
+	min-height: 30em;
+	background: white;
+	margin-bottom: 1em;
+	border-radius: 25px;
+	padding: 20px;
+	font-size: 4em;
+}
+article{
+	float: right;
+	width: 45%;
+	min-height: 30em;
+	background: white;
+	margin-bottom: 1em;
+	border-radius: 25px;
+	padding: 20px;
+	font-size: 4em;
+	
+}
+footer{
+	clear: both;
+	height: 50px;
+	background: #837984;
+}
+nav{
+	float: left;
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	
+}
+.navigation{
+	list-style: none;
+	margin: 0;
+	margin-bottom: 1em;
+	padding: 20px;
+}
+
+.navigation a{
+	text-decoration:none;
+	display:block;
+	color: #56c9c1;
+	text-align:center;
+	float: right;
+	width: 150px;
+	font-size: 1.5em;
+}
+
+
+	
+
+.header-image{
+	width:100%;
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+@media all and (max-width:800px){
+	.navigation{
+		justify-content: space-around;
+}
+}
+@media all and (max-width:600px){
+	.navigation{
+		-webkit-flex-flow: column wrap;
+		flex-flow: column wrap;
+		padding: 0;
+}
+	.navigation a {
+		text-align: center;
+		padding: 10px;
+		border-top: 1px solid rgba(255,255,255,0.3);
+		border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+	.navigation li:last-of-type a {
+		border-bottom: none;
+}
+}
+section{
+	width:100%;
+	height:500px;
+	background-color:white;
+	margin:auto;
+	text-align: center;
+}
+
+footer{
+	width:100%;
+	height: 100px;
+	background-color:#837984;
+	text-align: right;
+	color:#A41128}
+
+ul{
+	liststyle:none;
+	margin:0;
+	padding:0;
+}
+
+li{float: left}
+
+a{
+	display: block;
+	padding: 5%;
+	background-color: black;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	
+}
+
+
+
+#social-text{
+	float: right;
+	text-align: center;
+}
+
+#social-media{
+	float:right;
+	
+	
+}
+
+.social-icon{
+	float: left;
+	height: 50px;
+	width: 50px;
+}
+
+.social-icon img{
+	height: 50px;
+	width: auto;
+}
+
+
+
+
+
+
+
+
+
